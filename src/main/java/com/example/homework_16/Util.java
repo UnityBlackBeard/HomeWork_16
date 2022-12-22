@@ -10,7 +10,7 @@ public class Util {
     public static Connection makeMagic (){
         String url= "jdbc:postgresql://localhost:5432/test1";
         String user="postgres";
-        String pass="**********";
+        String pass="********";
         Properties props = new Properties();
         props.setProperty("user",user );
         props.setProperty("password",pass);
