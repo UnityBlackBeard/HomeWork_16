@@ -10,7 +10,7 @@ public class Util {
     public static Connection makeMagic (){
         String url= "jdbc:postgresql://localhost:5432/test1";
         String user="postgres";
-        String pass="aobcd8663";
+        String pass="********";
         Properties props = new Properties();
         props.setProperty("user",user );
         props.setProperty("password",pass);
@@ -27,7 +27,7 @@ public class Util {
         try {
             conn = DriverManager.getConnection(url, props);
         }catch (SQLException e){
-            System.out.println("все, пиздец");
+            System.out.println("все, кабзда");
         }
 
         return conn;
